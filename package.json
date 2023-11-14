@@ -9,8 +9,7 @@
   "scripts": {
     "build": "tsc",
     "build:reset": "rm -rf ./dist && tsc",
-    "test": "npm run build:reset && jest",
-    "test:watch": "npm run build:reset && jest --watchAll"
+    "test": "jest"
   },
   "dependencies": {
     "stylelint": "^15.11.0"
