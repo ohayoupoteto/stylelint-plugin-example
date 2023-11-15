@@ -9,7 +9,9 @@
   "scripts": {
     "build": "tsc",
     "build:reset": "rm -rf ./dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "prettier": "prettier --write \"{src,test}/**/*.ts\"",
+    "eslint": "eslint \"{src,test}/**/*.ts\" --fix"
   },
   "dependencies": {
     "stylelint": "^15.11.0"
